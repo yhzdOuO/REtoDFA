@@ -1,0 +1,8 @@
+ab*(a*|b(ab)*|b)*b
+
+ab
+abb
+ababb
+ababbabb
+abbbabababb
+abbaabb
