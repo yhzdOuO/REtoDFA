@@ -25,10 +25,10 @@ int main()
     if (getline(inputFile, line)) {
         /* 生成DFA */
         d.REtoDFA(line);
-
         d.printStr();
         d.printNFA();
         d.printDFA();
+
         /* 最小化DFA */
         d.Minimize();
         d.printDFA();
